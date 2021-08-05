@@ -29,7 +29,7 @@ training_samples = 20
 num_features = 10            
 layer1_size = 5             # number of perceptrons in layer 1
 layer2_size = 3             # number of perceptrons in layer 2
-output_layer = 1         # number of output variables
+output_layer = 1            # number of output variables
 
 inputs = np.random.randint(-10, 10, (training_samples, num_features))
 
